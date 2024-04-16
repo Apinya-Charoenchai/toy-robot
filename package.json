@@ -1,0 +1,21 @@
+{
+  "name": "toy-rotbot-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node dist/index.js",
+    "test": "npm run build && node dist/tests/ToyRobot.test.js",
+    "build": "tsc"
+  },  
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/readline-sync": "^1.4.8",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
